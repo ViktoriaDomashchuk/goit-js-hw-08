@@ -17,7 +17,6 @@ function onInput() {
   formData.email = form.elements.email.value;
   formData.message = form.elements.message.value;
   localStorage.setItem(STORAGE_KEY, JSON.stringify(formData));
-  console.log(formData);
 }
 
 function onFormSubmit(e) {
